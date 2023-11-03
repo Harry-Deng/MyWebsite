@@ -16,41 +16,36 @@ export default function Index() {
             <div>
               <h1 className={clsx("hero__title", styles.title)}>
                 <span>
-                  Hello<span className={styles.wave}>👋</span>, 我叫
+                  你好<span className={styles.wave}>👋</span>, 我叫
                 </span>
-                <strong>熊</strong>若晗
+                <strong>邓</strong>一默
               </h1>
               <div className={styles.roleContent}>
                 我是
                 <span className={clsx("margin-left--sm", styles.role)}>
                   <DistortionString
                     contents={[
-                      "Web 前端工程师",
-                      "iOS 开发工程师",
-                      "UI/UX 设计师",
-                      "开源开发者",
-                      "手工爱好者",
+                      "计算机安全 研究者",
+                      "Android 开发者",
+                      "开源社区 支持者",
+                      "古典健美 爱好者",
+                      "永远的 学徒",
                     ]}
                   />
                 </span>
               </div>
               <div className={styles.buttons}>
-                <DownloadButton fileName="resume.pdf" fileUrl="resume.pdf">
+                <DownloadButton fileName="CV.pdf" fileUrl="resume_2023_11_03.pdf">
                   简历
                 </DownloadButton>
                 <Link
                   className="button button--link button--lg color-primary-lightest"
                   to="/portfolio"
                 >
-                  作品
+                  我正在做
                 </Link>
               </div>
             </div>
-            <img
-              src="/img/お兄ちゃんはおしまい25.webp"
-              alt="热情地向你挥手"
-              title="Hello👋"
-            />
           </div>
         </div>
       </div>
@@ -92,11 +87,6 @@ export default function Index() {
           <img alt="Python" src="/img/badge/PYTHON.svg"/>
         </div>
 
-        <h2 className="margin-top--lg">贡献</h2>
-        <div>
-          <img alt="MDN Web Docs" src="/img/badge/MDN WEB DOCS.svg"/>
-          <img alt="GitHub" src="/img/badge/GITHUB.svg"/>
-        </div>
 
       </div>
     </Layout>

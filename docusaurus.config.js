@@ -11,15 +11,15 @@ const config = {
   favicon: 'img/site/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://darxs.cn',
+  url: 'https://dengemo.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Dar-Xs', // Usually your GitHub org/user name.
-  projectName: 'darxs-blog', // Usually your repo name.
+  organizationName: 'Harry-Deng', // Usually your GitHub org/user name.
+  projectName: 'MyWebsite', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'DarXs',
+        title: 'Yimo DENG',
         logo: {
           alt: 'DarXs Logo',
           src: 'img/site/logo_black.svg',
@@ -96,67 +96,29 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Find me',
             items: [
               {
-                label: 'Docusaurus Tutorial',
-                to: '/docs/Docusaurus/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/users/20128048/dr-xiong',
+                label: 'Github',
+                href: 'https://github.com/Harry-Deng',
               },
               {
                 label: 'Discord',
                 href: 'https://discord.gg/YbgrhdmQ9F',
               },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/darxs001',
-              },
             ],
           },
           {
-            title: 'More',
+            title: 'Friend',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'Blogger',
-                href: 'https://blog.darxs.cn',
-              },
-              {
-                label: 'GitHub Repository',
-                href: 'https://github.com/Dar-Xs/darxs-blog',
-              },
-            ],
-          },
-          {
-            title: 'Thanks',
-            items: [
-              {
-                label: 'Netlify',
-                href: 'https://www.netlify.com',
-              },
-              {
-                label: 'Docusaurus',
-                href: 'https://docusaurus.io',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com',
+                label: 'DarXs 微分',
+                href: 'https://darxs.com.cn/',
               },
             ],
           },
         ],
-        copyright: `Copyright © 2019 - ${new Date().getFullYear()} DarXs · Built with Docusaurus · Powered by Netlify</br><a href=\"https://icp.gov.moe/?keyword=20232192\" target=\"_blank\">萌ICP备20232192号</a> · <a href=\"http://beian.miit.gov.cn/\" target=\"_blank\">鄂ICP备2023017512号-1</a>`,
+        copyright: `Copyright © 2022 - ${new Date().getFullYear()} Yimo DENG · Built with Docusaurus · Powered by Netlify`,
       },
       colorMode: {
         defaultMode: 'light',

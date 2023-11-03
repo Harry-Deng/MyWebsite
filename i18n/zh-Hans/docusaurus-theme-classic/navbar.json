@@ -1,6 +1,6 @@
 {
   "title": {
-    "message": "DarXs 微分",
+    "message": "Yimo DENG",
     "description": "The title in the navbar"
   },
   "logo.alt": {
@@ -16,7 +16,7 @@
     "description": "Navbar item with label Blog"
   },
   "item.label.Portfolio": {
-    "message": "作品",
+    "message": "项目",
     "description": "Navbar item with label Portfolio"
   },
   "item.label.GitHub": {
@@ -24,7 +24,7 @@
     "description": "Navbar item with label GitHub"
   },
   "item.label.Notes": {
-    "message": "笔记",
+    "message": "发表",
     "description": "Navbar item with label Notes"
   }
 }

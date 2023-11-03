@@ -18,9 +18,9 @@ export default function Index() {
             <div>
               <h1 className={clsx("hero__title", styles.title)}>
                 <span>
-                  Hello<span className={styles.wave}>👋</span>, I'm
+                Hi, there<span className={styles.wave}>👋</span>, I'm
                 </span>
-                Dr. <strong>Xiong</strong>
+                Yimo<strong>DENG</strong>
               </h1>
               <div className={styles.roleContent}>
                 {isAn ? "An" : "A"}
@@ -51,11 +51,6 @@ export default function Index() {
                 </Link>
               </div>
             </div>
-            <img
-              src="/img/お兄ちゃんはおしまい25.webp"
-              alt="Waving to you warmly"
-              title="Hello👋"
-            />
           </div>
         </div>
       </div>
@@ -96,13 +91,6 @@ export default function Index() {
           <img alt="UnoCSS" src="https://img.shields.io/badge/UnoCSS-333333?style=for-the-badge&logo=unocss&logoColor=white"/>
           <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
         </div>
-
-        <h2 className="margin-top--lg">Contribute</h2>
-        <div>
-          <img alt="MDN Web Docs" src="https://img.shields.io/badge/MDN%20Web%20Docs-000000?style=for-the-badge&logo=mdnwebdocs&logoColor=white"/>
-          <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-        </div>
-
       </div>
     </Layout>
   );
