@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Yimo DENG",
-  tagline: "Dare to face the Xs.", // TODO: 换成你的slogan
+  tagline: "Carpe Diem", // TODO: 换成你的slogan
   favicon: "img/site/favicon.ico",
 
   // Set the production url of your site here
@@ -80,7 +80,7 @@ const config = {
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/portfolio", label: "Portfolio", position: "left" },
           {
-            href: "https://github.com/Dar-Xs/darxs-blog",
+            href: "https://github.com/Harry-Deng",
             label: "GitHub",
             position: "right",
           },
@@ -98,12 +98,12 @@ const config = {
               },
               {
                 label: "Discord",
-                href: "https://discord.gg/YbgrhdmQ9F",
+                href: "https://discord.gg/",
               },
             ],
           },
           {
-            title: "Friend",
+            title: "Exchange Links",
             items: [
               {
                 label: "DarXs 微分",
