@@ -24,6 +24,7 @@ export default function Index() {
               </h1>
               <div className={styles.roleContent}>
                 I am a/an
+                <br/>
                 <span className={clsx("margin-left--sm", styles.role)}>
                   <DistortionString
                     contents={[
@@ -55,26 +56,30 @@ export default function Index() {
       </div>
 
       <div className={`container padding-bottom--lg ${styles.badges}`}>
-        <h2 className="margin-top--lg">技能</h2>
+        <h2 className="margin-top--lg">Skills</h2>
         <div>
           <img alt="Python" src="/img/badge/Python.svg"/>
           <img alt="Pytorch" src="/img/badge/Pytorch.svg"/>
           <img alt="TensorFlow" src="/img/badge/TensorFlow.svg"/>
           <img alt="JAVA" src="/img/badge/JAVA.svg"/>
-          <img alt="JavaFX" src="/img/badge/JavaFX.svg"/>
           <img alt="Android" src="/img/badge/Android.svg"/>
+          <img alt="JavaFX" src="/img/badge/JavaFX.svg"/>
           <img alt="C++" src="/img/badge/C++.svg"/>
           <img alt="Qt" src="/img/badge/Qt.svg"/>
           <img alt="C" src="/img/badge/C.svg"/>
-          <img alt="Arduino" src="/img/badge/Arduino.svg"/>
           <img alt="LaTeX" src="/img/badge/LaTeX.svg"/>
         </div>
 
-        <h2 className="margin-top--lg">工具</h2>
+        <h2 className="margin-top--lg">Tools</h2>
         <div>
-          <img alt="Microsoft_Office" src="/img/badge/Microsoft_Office.svg"/>
+          <img alt="GIT" src="/img/badge/GIT.svg"/>
           <img alt="Overleaf" src="/img/badge/Overleaf.svg"/>
+          <img alt="Android_Studio" src="/img/badge/Android_Studio.svg"/>
           <img alt="VSCode" src="/img/badge/VSCode.svg"/>
+          <img alt="Arduino" src="/img/badge/Arduino.svg"/>
+          <img alt="Netlify" src="/img/badge/Netlify.svg"/>
+          <img alt="Vercel" src="/img/badge/Vercel.svg"/>
+          <img alt="Microsoft_Office" src="/img/badge/Microsoft_Office.svg"/>
         </div>
 
       </div>
