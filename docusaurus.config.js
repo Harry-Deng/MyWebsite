@@ -41,13 +41,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/Dar-Xs/darxs-blog/tree/main",
+          editUrl: "https://github.com/Harry-Deng/MyWebsite/tree/main",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/Dar-Xs/darxs-blog/tree/main",
+          editUrl: "https://github.com/Harry-Deng/MyWebsite/tree/main",
           blogSidebarTitle: "All posts",
           blogSidebarCount: "ALL",
         },
