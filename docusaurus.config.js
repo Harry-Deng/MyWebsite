@@ -65,11 +65,11 @@ const config = {
       image: "img/docusaurus-social-card.jpg",
       navbar: {
         title: "Yimo DENG",
-        logo: {
-          alt: "DarXs Logo",
-          src: "img/site/logo_black.svg",
-          srcDark: "img/site/logo_white.svg",
-        },
+        // logo: {
+        //   alt: "Logo",
+        //   src: "img/site/logo_black.svg",
+        //   srcDark: "img/site/logo_white.svg",
+        // },
         items: [
           {
             type: "docSidebar",

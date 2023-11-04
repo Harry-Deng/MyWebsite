@@ -13,25 +13,25 @@ export default function Index() {
         <div className="container">
           <div className={styles.col}>
             <div className={styles.avatar}>
-              <img src="/img/お兄ちゃんはおしまい34.webp" />
+              <img src="/img/Qavatar.png" />
             </div>
             <div className={styles.description}>
               <h1 className={clsx("hero__title", styles.title)}>
                 <span>
-                  你好<span className={styles.wave}>👋</span>, 我叫
+                  Hi, there<span className={styles.wave}>👋</span>, I'm
                 </span>
-                <strong>邓</strong>一默
+                <strong>DENG</strong> Yimo
               </h1>
               <div className={styles.roleContent}>
-                我是
+                I am a/an
                 <span className={clsx("margin-left--sm", styles.role)}>
                   <DistortionString
                     contents={[
-                      "计算机安全 研究者",
-                      "Android 开发者",
-                      "开源社区 支持者",
-                      "古典健美 爱好者",
-                      "永远的 学徒",
+                      "Computer Security Researcher",
+                      "Android Developer",
+                      "Open Source Community Supporter",
+                      "Classical Bodybuilding Enthusiast",
+                      "Eternal Apprentice"
                     ]}
                   />
                 </span>
@@ -39,14 +39,14 @@ export default function Index() {
               <div className={styles.buttons}>
                 <a href="/resume_2023_11_03.pdf">
                   <button className="button button--primary button--lg margin-right--md">
-                    简历
+                    CV
                   </button>
                 </a>
                 <Link
                   className="button button--link button--lg color-primary-lightest"
                   to="/portfolio"
                 >
-                  我正在做
+                  I am working on
                 </Link>
               </div>
             </div>
@@ -60,11 +60,9 @@ export default function Index() {
           <img alt="Python" src="/img/badge/Python.svg"/>
           <img alt="Pytorch" src="/img/badge/Pytorch.svg"/>
           <img alt="TensorFlow" src="/img/badge/TensorFlow.svg"/>
-          <br/>
           <img alt="JAVA" src="/img/badge/JAVA.svg"/>
           <img alt="JavaFX" src="/img/badge/JavaFX.svg"/>
           <img alt="Android" src="/img/badge/Android.svg"/>
-          <br/>
           <img alt="C++" src="/img/badge/C++.svg"/>
           <img alt="Qt" src="/img/badge/Qt.svg"/>
           <img alt="C" src="/img/badge/C.svg"/>
