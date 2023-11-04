@@ -53,7 +53,7 @@ export default function Index() {
       <div className={`container padding-bottom--lg ${styles.badges}`}>
         <h2 className="margin-top--lg">技能</h2>        
         <div>
-          <img alt="HTML5" src="/img/badge/HTML5.svg"/>
+          <img alt="HTML5" src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/>
           <img alt="CSS3" src="/img/badge/CSS3.svg"/>
           <img alt="JavaScript" src="/img/badge/JAVASCRIPT.svg"/>
           <img alt="Vue.js" src="/img/badge/VUE.svg"/>
