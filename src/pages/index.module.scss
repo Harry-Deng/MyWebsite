@@ -41,9 +41,17 @@
   }
   .col {
     display: flex;
-    justify-content: space-between;
-    img {
-      height: 256px;
+    column-gap: 5%;
+    .avatar {
+      flex-basis: 45%;
+      display: flex;
+      justify-content: flex-end;
+      img {
+        height: 256px;
+      }
+    }
+    .description {
+      flex-basis: 50%;
     }
   }
 }
@@ -65,8 +73,12 @@
     text-align: center;
     .col {
       flex-direction: column;
-      img {
-        object-fit: contain;
+      row-gap: 2.5rem;
+      .avatar {
+        justify-content: center;
+        img {
+          object-fit: contain;
+        }
       }
     }
   }

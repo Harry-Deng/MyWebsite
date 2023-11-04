@@ -3,7 +3,6 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import Layout from "@theme/Layout";
 import DistortionString from "@site/src/components/DistortionString";
-import DownloadButton from "@site/src/components/DownloadButton";
 
 import styles from "./index.module.scss";
 
@@ -12,8 +11,11 @@ export default function Index() {
     <Layout>
       <div className={clsx("hero hero--dark", styles.banner)}>
         <div className="container">
-          <div className={`${styles.col}`}>
-            <div>
+          <div className={styles.col}>
+            <div className={styles.avatar}>
+              <img src="/img/お兄ちゃんはおしまい34.webp" />
+            </div>
+            <div className={styles.description}>
               <h1 className={clsx("hero__title", styles.title)}>
                 <span>
                   你好<span className={styles.wave}>👋</span>, 我叫
@@ -35,9 +37,11 @@ export default function Index() {
                 </span>
               </div>
               <div className={styles.buttons}>
-                <DownloadButton fileName="CV.pdf" fileUrl="resume_2023_11_03.pdf">
-                  简历
-                </DownloadButton>
+                <a href="/resume_2023_11_03.pdf">
+                  <button className="button button--primary button--lg margin-right--md">
+                    简历
+                  </button>
+                </a>
                 <Link
                   className="button button--link button--lg color-primary-lightest"
                   to="/portfolio"
@@ -51,7 +55,7 @@ export default function Index() {
       </div>
 
       <div className={`container padding-bottom--lg ${styles.badges}`}>
-        <h2 className="margin-top--lg">技能</h2>        
+        <h2 className="margin-top--lg">技能</h2>
         <div>
           <img alt="Python" src="/img/badge/Python.svg"/>
           <img alt="Pytorch" src="/img/badge/Pytorch.svg"/>
@@ -67,7 +71,7 @@ export default function Index() {
           <img alt="Arduino" src="/img/badge/Arduino.svg"/>
           <img alt="LaTeX" src="/img/badge/LaTeX.svg"/>
         </div>
-        
+
         <h2 className="margin-top--lg">工具</h2>
         <div>
           <img alt="Microsoft_Office" src="/img/badge/Microsoft_Office.svg"/>
