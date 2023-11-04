@@ -1,9 +1,7 @@
 # dengemo.com
 
 站点 [dengemo.com](https://dengemo.com) 是我的个人博客、玩具和一些笔记。
-站点由 Docusaurus 构建, 托管在 Netlify 上, 
-构建状态: 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e62cdcbc-1862-42a8-bb23-3aa2203003ab/deploy-status)](https://app.netlify.com/sites/darxs/deploys)
+站点由 Docusaurus 构建, 托管在 Netlify 上。
 
 ### Installation
 
