@@ -71,14 +71,14 @@ const config = {
         //   srcDark: "img/site/logo_white.svg",
         // },
         items: [
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Notes",
-          },
-          { to: "/blog", label: "Blog", position: "left" },
-          { to: "/portfolio", label: "Portfolio", position: "left" },
+          { to: "/blog", label: "Blogs", position: "left" },
+          { to: "/Project", label: "Projects", position: "left" },
+          // {
+          //   type: "docSidebar",
+          //   sidebarId: "tutorialSidebar",
+          //   position: "left",
+          //   label: "Doc",
+          // },
           {
             href: "https://github.com/Harry-Deng",
             label: "GitHub",

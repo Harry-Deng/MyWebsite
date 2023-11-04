@@ -45,7 +45,7 @@ export default function Index() {
                 </a>
                 <Link
                   className="button button--link button--lg color-primary-lightest"
-                  to="/portfolio"
+                  to="/Project"
                 >
                   I am working on
                 </Link>
