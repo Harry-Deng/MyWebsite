@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import Layout from "@theme/Layout";
@@ -7,6 +7,7 @@ import DistortionString from "@site/src/components/DistortionString";
 import styles from "./index.module.scss";
 
 export default function Index() {
+  const [isAn, setIsAn] = useState(false);
   return (
     <Layout>
       <div className={clsx("hero hero--dark", styles.banner)}>
@@ -23,17 +24,20 @@ export default function Index() {
                 <strong>DENG</strong> Yimo
               </h1>
               <div className={styles.roleContent}>
-                I am a/an
-                <br/>
-                <span className={clsx("margin-left--sm", styles.role)}>
+                I am {isAn ? "an" : "a"}
+                <br />
+                <span className={styles.role}>
                   <DistortionString
                     contents={[
                       "Computer Security Researcher",
                       "Android Developer",
                       "Open Source Community Supporter",
                       "Classical Bodybuilding Enthusiast",
-                      "Eternal Apprentice"
+                      "Eternal Apprentice",
                     ]}
+                    setIsAn={setIsAn}
+                    charTime={60}
+                    rmCharTime={30}
                   />
                 </span>
               </div>
@@ -58,30 +62,29 @@ export default function Index() {
       <div className={`container padding-bottom--lg ${styles.badges}`}>
         <h2 className="margin-top--lg">Skills</h2>
         <div>
-          <img alt="Python" src="/img/badge/Python.svg"/>
-          <img alt="Pytorch" src="/img/badge/Pytorch.svg"/>
-          <img alt="TensorFlow" src="/img/badge/TensorFlow.svg"/>
-          <img alt="JAVA" src="/img/badge/JAVA.svg"/>
-          <img alt="Android" src="/img/badge/Android.svg"/>
-          <img alt="JavaFX" src="/img/badge/JavaFX.svg"/>
-          <img alt="C++" src="/img/badge/C++.svg"/>
-          <img alt="Qt" src="/img/badge/Qt.svg"/>
-          <img alt="C" src="/img/badge/C.svg"/>
-          <img alt="Arduino" src="/img/badge/Arduino.svg"/>
-          <img alt="LaTeX" src="/img/badge/LaTeX.svg"/>
+          <img alt="Python" src="/img/badge/Python.svg" />
+          <img alt="Pytorch" src="/img/badge/Pytorch.svg" />
+          <img alt="TensorFlow" src="/img/badge/TensorFlow.svg" />
+          <img alt="JAVA" src="/img/badge/JAVA.svg" />
+          <img alt="Android" src="/img/badge/Android.svg" />
+          <img alt="JavaFX" src="/img/badge/JavaFX.svg" />
+          <img alt="C++" src="/img/badge/C++.svg" />
+          <img alt="Qt" src="/img/badge/Qt.svg" />
+          <img alt="C" src="/img/badge/C.svg" />
+          <img alt="Arduino" src="/img/badge/Arduino.svg" />
+          <img alt="LaTeX" src="/img/badge/LaTeX.svg" />
         </div>
 
         <h2 className="margin-top--lg">Tools</h2>
         <div>
-          <img alt="GIT" src="/img/badge/GIT.svg"/>
-          <img alt="Overleaf" src="/img/badge/Overleaf.svg"/>
-          <img alt="Android_Studio" src="/img/badge/Android_Studio.svg"/>
-          <img alt="VSCode" src="/img/badge/VSCode.svg"/>
-          <img alt="Netlify" src="/img/badge/Netlify.svg"/>
-          <img alt="Vercel" src="/img/badge/Vercel.svg"/>
-          <img alt="Microsoft_Office" src="/img/badge/Microsoft_Office.svg"/>
+          <img alt="GIT" src="/img/badge/GIT.svg" />
+          <img alt="Overleaf" src="/img/badge/Overleaf.svg" />
+          <img alt="Android_Studio" src="/img/badge/Android_Studio.svg" />
+          <img alt="VSCode" src="/img/badge/VSCode.svg" />
+          <img alt="Netlify" src="/img/badge/Netlify.svg" />
+          <img alt="Vercel" src="/img/badge/Vercel.svg" />
+          <img alt="Microsoft_Office" src="/img/badge/Microsoft_Office.svg" />
         </div>
-
       </div>
     </Layout>
   );
