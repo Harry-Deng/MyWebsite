@@ -32,6 +32,7 @@ export default function Project() {
                       "Within Local Area Network Attack Software",
                       "Schedule Management Android Application",
                       "IDS for Covert Attacks on the CAN Bus",
+                      "Care Center Management System",
                     ]}
                   />
                 </div>
@@ -77,7 +78,7 @@ export default function Project() {
                       className="button button--secondary"
                       to="https://github.com/Harry-Deng/NEUHermit"
                     >
-                      GitHub Repository
+                      GitHub Repository ⭐
                     </Link>
                   </div>
                 </div>
@@ -85,8 +86,52 @@ export default function Project() {
             </div>
           </div>
         
+          <div className="col col--4">
+            <div className={`${styles.card}`}>
+              <div className="card">
+                <div className="card__image">
+                  <Link to="https://github.com/Harry-Deng/Neusoft_NursingCenter">
+                    <img
+                      src="/img/NEUNursingCenter.jpg"
+                      alt="Application Demonstration"
+                      title="Go To GitHub Repository"
+                    />
+                  </Link>
+                </div>
+                <div className="card__body">
+                  <Link to="https://github.com/Harry-Deng/Neusoft_NursingCenter">
+                    <h4>Care Center Management System</h4>
+                  </Link>
+                  <small>
+                  A multifunctional nursing center management 
+                  system based on JavaFX with an aesthetic GUI.
+                  </small>
+                </div>
+                <div className="card__footer">
+                  <div className="button-group button-group--block">
+                    {/* <Link
+                      className="button button--secondary"
+                      to="https://math.dar-xs.com"
+                    >
+                      前往站点
+                    </Link> */}
+                    <Link
+                      className="button button--secondary"
+                      to="https://github.com/Harry-Deng/Neusoft_NursingCenter"
+                    >
+                      GitHub Repository ⭐
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
         </div>
       </div>
+      
     </Layout>
   );
 }

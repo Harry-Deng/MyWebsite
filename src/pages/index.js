@@ -67,6 +67,7 @@ export default function Index() {
           <img alt="C++" src="/img/badge/C++.svg"/>
           <img alt="Qt" src="/img/badge/Qt.svg"/>
           <img alt="C" src="/img/badge/C.svg"/>
+          <img alt="Arduino" src="/img/badge/Arduino.svg"/>
           <img alt="LaTeX" src="/img/badge/LaTeX.svg"/>
         </div>
 
@@ -76,7 +77,6 @@ export default function Index() {
           <img alt="Overleaf" src="/img/badge/Overleaf.svg"/>
           <img alt="Android_Studio" src="/img/badge/Android_Studio.svg"/>
           <img alt="VSCode" src="/img/badge/VSCode.svg"/>
-          <img alt="Arduino" src="/img/badge/Arduino.svg"/>
           <img alt="Netlify" src="/img/badge/Netlify.svg"/>
           <img alt="Vercel" src="/img/badge/Vercel.svg"/>
           <img alt="Microsoft_Office" src="/img/badge/Microsoft_Office.svg"/>

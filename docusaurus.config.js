@@ -107,7 +107,7 @@ const config = {
             items: [
               {
                 label: "DarXs 微分",
-                href: "https://darxs.com.cn/",
+                href: "https://darxs.com.cn/en/",
               },
             ],
           },
