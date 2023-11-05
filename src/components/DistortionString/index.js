@@ -54,10 +54,11 @@ function randStringNear(string, radius) {
 
 export default function DistortionString({
   contents = [
-    "Fontend Developer",
-    "前端工程师",
-    "Web Developer",
-    "iOS Developer",
+    "Computer Security Researcher",
+    "Android Developer",
+    "Open Source Community Supporter",
+    "Classical Bodybuilding Enthusiast",
+    "Eternal Apprentice"
   ],
   setIsAn = (isAn) => {},
   charTime = 100,
