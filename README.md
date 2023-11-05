@@ -1,6 +1,7 @@
 # dengemo.com
 
-站点 [dengemo.com](https://dengemo.com) 是我的个人博客、玩具和一些笔记。
+站点 [dengemo.com](https://dengemo.com) 是我的个人博客。
+本站基于Dar-Xs的个人博客 [darxs.com.cn](https://darxs.com.cn/)为蓝本构建，鸣谢@[Dar-Xs](https://github.com/Dar-Xs)的鼎力相助，没有他就没有本站。
 站点由 Docusaurus 构建, 托管在 Netlify 上。
 
 ### Installation
