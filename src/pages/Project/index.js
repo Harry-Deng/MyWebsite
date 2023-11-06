@@ -103,7 +103,7 @@ export default function Project() {
                   </Link>
                   <small>
                     A multifunctional nursing center management system based on
-                    JavaFX with an aesthetic GUI. Including functions such as 
+                    JavaFX with an aesthetic GUI. Including 
                     personnel, bed, building, and service management.
                   </small>
                 </div>
