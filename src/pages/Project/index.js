@@ -99,11 +99,12 @@ export default function Project() {
                 </div>
                 <div className="card__body">
                   <Link to="https://github.com/Harry-Deng/Neusoft_NursingCenter">
-                    <h4>Care Center Management System</h4>
+                    <h4>Nursing Center Management System</h4>
                   </Link>
                   <small>
                     A multifunctional nursing center management system based on
-                    JavaFX with an aesthetic GUI.
+                    JavaFX with an aesthetic GUI. Including functions such as 
+                    personnel, bed, building, and service management.
                   </small>
                 </div>
                 <div className="card__footer">
