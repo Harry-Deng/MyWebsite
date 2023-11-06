@@ -11,11 +11,16 @@ authors:
     url: https://www.paulirish.com
     image_url: https://web-dev.imgix.net/image/T4FyVKpzu4WKF1kBNvXepbi08t52/pkfFfQq25tFjXgFQw1rF.png
   - Dar-Xs
+  - Harry-DENG
 tags: [解析, 浏览器, BNF, CSS, DOM, HTML, JavaScript]
 ---
 现代 web 浏览器的背后
 
-英文原文于 2011 年 8 月 5 日发布在 [web.dev](https://web.dev) 上 ([原文链接](https://web.dev/howbrowserswork/))
+:::caution 
+文章正在施工
+:::
+
+英文原文于 2011 年 8 月 5 日发布在 [web.dev](https://web.dev) 上 ([原文链接](https://web.dev/howbrowserswork/))，本文为作者基于个人理解对原文进行的翻译版本。
 
 ## 序
 

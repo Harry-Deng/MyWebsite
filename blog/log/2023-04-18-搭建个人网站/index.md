@@ -1,11 +1,12 @@
 ---
 slug: some-ways-to-build-personal-website
-title: 搭建个人网站的几种方法
-authors: [Dar-Xs]
+title: 如何搭建自己的网站
+authors: [Dar-Xs, Harry-DENG]
 tags: [Axios, Django, Docusaurus, Express, GitHub Pages, hexo, Log., Netlify, Next.js, Spring, Vue.js, Vercel, React]
 ---
 
-本文只包含一些可能有用的链接
+本文中有关前端的部分由@[Ruohan XIONG](https://github.com/Dar-Xs)编写。
+关于域名解析，DoS防护等内容由@[Yimo DENG](https://dengemo.com/)编写，未来会逐渐完善。
 
 ### 前端
 
@@ -37,4 +38,4 @@ tags: [Axios, Django, Docusaurus, Express, GitHub Pages, hexo, Log., Netlify, Ne
  - Python 系（[Django](https://www.djangoproject.com)）
  - Java 系（[Spring](https://spring.io)）
 
-我的个人网站已经使用 Docusaurus 部署到 Netlify 上：[darxs.com.cn](https://darxs.com.cn)，同学们有兴趣可以访问
+作者的个人网站已经使用 Docusaurus 部署到 Netlify 上，分别是 [dengemo.com](https://dengemo.com) 和 [darxs.com.cn](https://darxs.com.cn/)。
