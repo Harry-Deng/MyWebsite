@@ -7,7 +7,6 @@ import DistortionString from "@site/src/components/DistortionString";
 import styles from "./index.module.scss";
 
 export default function Project() {
-
   return (
     <Layout>
       <div className={clsx("hero hero--dark", styles.banner)}>
@@ -15,13 +14,11 @@ export default function Project() {
           <div className={`${styles.col}`}>
             <div>
               <h1 className={clsx("hero__title", styles.title)}>
-                <span>
-                  Welcome to
-                </span>
+                <span>Welcome to</span>
                 <strong>My</strong> Projects
               </h1>
               <div className={styles.roleContent}>
-                Here is 
+                Here is
                 <div className={styles.role}>
                   <DistortionString
                     contents={[
@@ -34,6 +31,8 @@ export default function Project() {
                       "IDS for Covert Attacks on the CAN Bus",
                       "Care Center Management System",
                     ]}
+                    charTime={60}
+                    rmCharTime={30}
                   />
                 </div>
               </div>
@@ -61,9 +60,9 @@ export default function Project() {
                     <h4>NEU Hermit / 东百隐士</h4>
                   </Link>
                   <small>
-                  An Android application amalgamates
-                  multiple functionalities including a calendar, 
-                  To-do tasks, moments, and class schedules.
+                    An Android application amalgamates multiple functionalities
+                    including a calendar, To-do tasks, moments, and class
+                    schedules.
                   </small>
                 </div>
                 <div className="card__footer">
@@ -85,7 +84,7 @@ export default function Project() {
               </div>
             </div>
           </div>
-        
+
           <div className="col col--4">
             <div className={`${styles.card}`}>
               <div className="card">
@@ -103,8 +102,8 @@ export default function Project() {
                     <h4>Care Center Management System</h4>
                   </Link>
                   <small>
-                  A multifunctional nursing center management 
-                  system based on JavaFX with an aesthetic GUI.
+                    A multifunctional nursing center management system based on
+                    JavaFX with an aesthetic GUI.
                   </small>
                 </div>
                 <div className="card__footer">
@@ -125,13 +124,9 @@ export default function Project() {
                 </div>
               </div>
             </div>
-
-
           </div>
-
         </div>
       </div>
-      
     </Layout>
   );
 }
