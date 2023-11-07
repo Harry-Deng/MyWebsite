@@ -116,7 +116,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © 2022 - ${new Date().getFullYear()} Yimo DENG · Built with Docusaurus · Powered by Netlify`,
+        copyright: `Copyright © 2022 - ${new Date().getFullYear()} Yimo DENG · 辽ICP备2021013230号 · Built with Docusaurus · Powered by Netlify`,
       },
       colorMode: {
         defaultMode: "light",
