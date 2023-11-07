@@ -1,8 +1,8 @@
 ---
 slug: index
-title: Who am I
+title: About me
 authors: [Harry-DENG]
-tags: [Hello Strangers~]
+tags: [Hello, About me]
 ---
 
 
