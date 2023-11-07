@@ -109,6 +109,10 @@ const config = {
                 label: "DarXs 微分",
                 href: "https://darxs.com.cn/en/",
               },
+              {
+                label: "Qiongpeng KONG",
+                href: "https://github.com/Kqp1227",
+              },
             ],
           },
         ],
