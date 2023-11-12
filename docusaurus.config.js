@@ -111,7 +111,7 @@ const config = {
               },
               {
                 label: "Qiongpeng KONG",
-                href: "https://github.com/Kqp1227",
+                href: "https://kqp1227.github.io/",
               },
             ],
           },
