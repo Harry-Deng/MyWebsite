@@ -30,10 +30,11 @@ export default function Index() {
                   <DistortionString
                     contents={[
                       "Computer Security Researcher",
+                      "AI Security Researcher",
                       "Android Developer",
                       "Open Source Community Supporter",
                       "Classical Bodybuilding Enthusiast",
-                      "Eternal Apprentice",
+                      "Eternal Student",
                     ]}
                     setIsAn={setIsAn}
                     charTime={60}
@@ -42,7 +43,7 @@ export default function Index() {
                 </span>
               </div>
               <div className={styles.buttons}>
-                <a href="/resume_2023_11_03.pdf">
+                <a href="/Resume_2023_11_20.pdf">
                   <button className="button button--primary button--lg margin-right--md">
                     CV
                   </button>
@@ -51,7 +52,7 @@ export default function Index() {
                   className="button button--link button--lg color-primary-lightest"
                   to="/Project"
                 >
-                  I am working on
+                  My Projects
                 </Link>
               </div>
             </div>
