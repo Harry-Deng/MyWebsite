@@ -163,11 +163,13 @@ export default function Project() {
             </div>
           </div>
 
+
+
           <div className="col col--4">
             <div className={`${styles.card}`}>
               <div className="card">
                 <div className="card__image">
-                  <Link to="https://github.com/Harry-Deng/">
+                  <Link to="https://github.com/Harry-Deng/Yawn-Suite">
                     <img
                       src="/img/YawnSuite.png"
                       alt="Application Demonstration"
@@ -176,7 +178,7 @@ export default function Project() {
                   </Link>
                 </div>
                 <div className="card__body">
-                  <Link to="https://github.com/Harry-Deng/">
+                  <Link to="https://github.com/Harry-Deng/Yawn-Suite">
                     <h4>More projects will be uploaded soon...</h4>
                   </Link>
                   <small>
@@ -192,7 +194,7 @@ export default function Project() {
                     </Link> */}
                     <Link
                       className="button button--secondary"
-                      to="https://github.com/Harry-Deng/"
+                      to="https://github.com/Harry-Deng/Yawn-Suite"
                     >
                       My GitHub 👾
                     </Link>
