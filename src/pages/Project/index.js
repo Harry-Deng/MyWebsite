@@ -22,13 +22,9 @@ export default function Project() {
                 <div className={styles.role}>
                   <DistortionString
                     contents={[
-                      "Privacy Protection in Sparse Crowd Sensing",
-                      "Multi-party Games in the Cloud Service Market",
-                      "Security Issues in Multimodal Large Models",
                       "Desktop-Level Encrypted Communication Software",
                       "Within LAN Attack Software",
                       "Schedule Management Android Application",
-                      "IDS for Covert Attacks on the CAN Bus",
                       "Care Center Management System",
                     ]}
                     charTime={60}
@@ -131,6 +127,46 @@ export default function Project() {
             <div className={`${styles.card}`}>
               <div className="card">
                 <div className="card__image">
+                  <Link to="https://github.com/Harry-Deng/Crypto-En-Decryptor">
+                    <img
+                      src="/img/Crypto1.png"
+                      alt="Application Demonstration"
+                      title="Go To GitHub Repository"
+                    />
+                  </Link>
+                </div>
+                <div className="card__body">
+                  <Link to="https://github.com/Harry-Deng/Crypto-En-Decryptor">
+                    <h4>Crypto / 密客</h4>
+                  </Link>
+                  <small>
+                    This app offers a variety of encryption features, including both basic and advanced encryption methods.
+                  </small>
+                </div>
+                <div className="card__footer">
+                  <div className="button-group button-group--block">
+                    {/* <Link
+                      className="button button--secondary"
+                      to="https://math.dar-xs.com"
+                    >
+                      前往站点
+                    </Link> */}
+                    <Link
+                      className="button button--secondary"
+                      to="https://github.com/Harry-Deng/Crypto-En-Decryptor"
+                    >
+                      GitHub Repository ⭐
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col col--4">
+            <div className={`${styles.card}`}>
+              <div className="card">
+                <div className="card__image">
                   <Link to="https://github.com/Harry-Deng/">
                     <img
                       src="/img/YawnSuite.png"
@@ -140,7 +176,7 @@ export default function Project() {
                   </Link>
                 </div>
                 <div className="card__body">
-                  <Link to="https://github.com/Harry-Deng/Neusoft_NursingCenter">
+                  <Link to="https://github.com/Harry-Deng/">
                     <h4>More projects will be uploaded soon...</h4>
                   </Link>
                   <small>
@@ -156,7 +192,7 @@ export default function Project() {
                     </Link> */}
                     <Link
                       className="button button--secondary"
-                      to="https://github.com/Harry-Deng/Neusoft_NursingCenter"
+                      to="https://github.com/Harry-Deng/"
                     >
                       My GitHub 👾
                     </Link>
@@ -165,6 +201,7 @@ export default function Project() {
               </div>
             </div>
           </div>
+
 
         </div>
       </div>
