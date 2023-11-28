@@ -129,7 +129,7 @@ export default function Project() {
                 <div className="card__image">
                   <Link to="https://github.com/Harry-Deng/Crypto-En-Decryptor">
                     <img
-                      src="/img/Crypto1.png"
+                      src="/img/Crypto.png"
                       alt="Application Demonstration"
                       title="Go To GitHub Repository"
                     />
