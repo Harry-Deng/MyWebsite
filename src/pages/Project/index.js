@@ -22,9 +22,9 @@ export default function Project() {
                 <div className={styles.role}>
                   <DistortionString
                     contents={[
-                      "Desktop-Level Encrypted Communication Software",
-                      "Within LAN Attack Software",
-                      "Schedule Management Android Application",
+                      "Crypto: Lightweight Encrypted Communication Software",
+                      "YawnSuite: Network Attack Software",
+                      "NEUHermit: Schedule Management Android Application",
                       "Care Center Management System",
                     ]}
                     charTime={60}
