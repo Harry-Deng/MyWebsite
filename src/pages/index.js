@@ -43,7 +43,7 @@ export default function Index() {
                 </span>
               </div>
               <div className={styles.buttons}>
-                <a href="/Resume_2023_11_20.pdf">
+                <a href="/Resume.pdf">
                   <button className="button button--primary button--lg margin-right--md">
                     CV
                   </button>
