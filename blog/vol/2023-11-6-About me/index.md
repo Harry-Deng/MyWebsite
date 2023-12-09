@@ -7,15 +7,15 @@ tags: [Hello, About me]
 
 
 ## Hi, there
-I am Yimo Deng, presently serving as a research assistant at the Hong Kong University of Science and Technology. I have aspirations of becoming a scientific researcher in the future. I am engrossed in the fields of computer security and artificial intelligence. At present, my research endeavors are centered on addressing prevailing security challenges within the realm of multimodal large-scale models.
+I am Yimo DENG, currently serving as a research assistant at the Hong Kong University of Science and Technology (GZ) under the guidance of [Prof.Huangxun CHEN](/https://www.chenhuangxun.com/). I focus on research in the fields of Computer Security and Artificial Intelligence. Currently, I am exploring how to effectively bypass the safety filter of LLMs.
 
-I have a passion for both scientific research and software development, occasionally contributing to interesting projects. A selection of my work is showcased on the [Projects](/Project) page of this site, while a comprehensive portfolio can be found on my [GitHub](https://github.com/Harry-Deng).
+I am also an open-source software developer, occasionally contributing to interesting projects. A selection of my work is showcased on the [Projects](/Project) page of this site, while a comprehensive portfolio can be found on my [GitHub](https://github.com/Harry-Deng).
 
-## 你好, 朋友
-我是邓一默，目前在香港科技大学担任研究助理。我有志于在未来成为一名科研工作者。我专注于计算机安全和人工智能领域的研究。目前，我的研究主要针对多模态大型模型中普遍存在的安全挑战。
+I am currently looking for a Ph.D. position in CS, ECE, Information Science, or relevent fields. Please feel free to reach out!
 
-我对科研和开发都有着浓厚的兴趣，我有时会参与开发一些有趣的小项目。我在这个网站的[Projects](/Project)页面上展示了我参与的一些工作。更完整的作品集可以在我的[GitHub](https://github.com/Harry-Deng)上找到。
+## 你好, 朋友 👋
+我是邓一默，目前在陈煌栒教授的指导下在香港科技大学（广州）担任研究助理。我专注于计算机安全和人工智能领域的研究。目前，我正在探索如何有效地绕过大型模型的安全防护机制。
 
+我同时是一名开源软件开发者，我有时会参与开发一些有趣的小项目。我在这个网站的[Projects](/Project)页面上展示了我参与的一些工作。你也可以在我的[GitHub](https://github.com/Harry-Deng)找到更完整的作品集。
 
-<!-- >**Written on May 1st, 2023**<br/>
->I am Yimo Deng, an Information Security major studying at the Software College of Northeastern University, China. I have aspirations of becoming a scientific researcher in the future. My research interests include Computer Security and Wireless Network. Specifically, I am interested in exploring the fields of security and privacy, with a focus on developing secure systems and protect the privacy in mobile communications. Currently, my research delves into the applications of distributed machine learning in VANETs. -->
+我目前正在寻找计算机科学、电子与计算机工程、信息科学或相关领域的博士职位。欢迎随时联系我！
