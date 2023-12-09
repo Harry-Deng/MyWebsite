@@ -15,7 +15,7 @@ export default function Project() {
             <div>
               <h1 className={clsx("hero__title", styles.title)}>
                 <span>Welcome to</span>
-                <strong>My</strong> Projects
+                <strong>MY</strong> Projects
               </h1>
               <div className={styles.roleContent}>
                 Here is
