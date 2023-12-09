@@ -7,7 +7,7 @@ tags: [Hello, About me]
 
 
 ## Hi, there 🫡
-I am Yimo DENG, currently serving as a research assistant at the Hong Kong University of Science and Technology (GZ) under the guidance of [Prof.Huangxun CHEN](/https://www.chenhuangxun.com/). I focus on research in the fields of Computer Security and Artificial Intelligence. Currently, I am exploring how to effectively bypass the safety filter of LLMs.
+I am Yimo DENG, currently serving as a research assistant at the Hong Kong University of Science and Technology (GZ) under the guidance of [Prof. Huangxun CHEN](/https://www.chenhuangxun.com/). I focus on research in the fields of Computer Security and Artificial Intelligence. Currently, I am exploring how to effectively bypass the safety filter of LLMs.
 
 I am also an open-source software developer, occasionally contributing to interesting projects. A selection of my work is showcased on the [Projects](/Project) page of this site, while a comprehensive portfolio can be found on my [GitHub](https://github.com/Harry-Deng).
 
