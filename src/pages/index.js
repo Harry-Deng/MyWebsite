@@ -50,9 +50,9 @@ export default function Index() {
                 </a>
                 <Link
                   className="button button--link button--lg color-primary-lightest"
-                  to="/Project"
+                  to="/blog"
                 >
-                  My Projects
+                  About me
                 </Link>
               </div>
             </div>
