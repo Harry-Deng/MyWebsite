@@ -106,12 +106,12 @@ const config = {
             title: "Exchange Links",
             items: [
               {
-                label: "DarXs 微分",
-                href: "https://darxs.com.cn/en/",
-              },
-              {
                 label: "Qiongpeng KONG",
                 href: "https://kqp1227.github.io/",
+              },
+              {
+                label: "Ruohan Xiong",
+                href: "https://darxs.com.cn/en/",
               },
             ],
           },
