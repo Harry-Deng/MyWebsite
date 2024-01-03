@@ -110,7 +110,7 @@ const config = {
                 href: "https://kqp1227.github.io/",
               },
               {
-                label: "Ruohan Xiong",
+                label: "Ruohan XIONG",
                 href: "https://darxs.com.cn/en/",
               },
             ],
